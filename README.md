@@ -1,2 +1,2 @@
-# Fullstack Node #
-### A fullstack node.js application with CI/CD pipeline ###
+# NodeInfra #
+### A node.js sample application with CI/CD pipeline ###

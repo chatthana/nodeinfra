@@ -15,6 +15,13 @@ app.get('/', (req, res) => {
   })
 });
 
+app.use((req, res) => {
+  res.status(404).json({
+    status: '404',
+    message: 'The route is not defined (yet)'
+  });
+});
+
 app.listen(3000, () => {
   console.log('The application is initialised on the port %s', 3000);
 });
